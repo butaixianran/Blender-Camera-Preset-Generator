@@ -3,9 +3,9 @@
 
 
 # Blender Addon Camera Preset Generator
-This addon offers 9**8 build-in camera motion presets** with thumbnail image and demo video. **And you can create your own preset.**  
+This addon offers **98 build-in camera motion presets** with thumbnail image and demo video. **And you can create your own preset.**  
 
-It comes with a **powerful camera system and options**, and can **auto switch multiple cameras** easily.  
+It can create **powerful camera system with handy options**, and can **auto switch multiple cameras** easily.  
 
 # Screenshot
 Addon  
