@@ -180,7 +180,7 @@ Preset has already set camera motion length for you, so you just pick each camer
 
 So, you just change "**Start frame**" option's value to "**current frame**" at addon panel, then go to the start frame you like to generate a camera.  
 
-You can also set "**Start frame**" to "**Follow Last Camera**". So, new camera motion's start frame, will be last camera motion's end frame+1.  
+You can also set "**Start frame**" to "**Follow Last Camera**"(new in version 1.1). So, new camera motion's start frame, will be last camera motion's end frame+1.  
 
 If you have multiple camera system, you may want to view all camera motions' range at once. You can do that by going to Blender's NLA view. 
 
