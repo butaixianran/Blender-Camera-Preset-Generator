@@ -182,7 +182,7 @@ So, you just change "**Start frame**" option's value to "**current frame**" at a
 
 You can also set "**Start frame**" to "**Follow Last Camera**"(new in version 1.1). So, new camera motion's start frame, will be last camera motion's end frame+1.  
 
-If you have multiple camera system, you may want to view all camera motions' range at once. You can do that by going to Blender's NLA view. 
+**If you have multiple camera system, you may want to view all camera motions' range at once. You can do that by going to Blender's NLA view.**  
 
 NLA is a must learn thing, if you use blender for animation. Search "Blender NLA" for more. 
 
