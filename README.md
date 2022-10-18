@@ -164,7 +164,22 @@ If "`Look At Target`" is checked, generated camera will always looking at the ta
 Set position of camera system's handler. Default is `In-Between`, means it is at the middle of the camera and the empty sun object.  
 
 ### Auto Switch Camera
-Normally, switch point will be every camera motion's end frame.  
+Switch point will be every camera motion's end frame.  
+
+The order of your camera is based on camera motion's start frame.  
+
+For example, I have:  
+camera motion 01 from frame 100-300  
+camera motion 02 from frame 600-900  
+
+Then, camera motion will start with camera 01. And swtich to camera 02 at frame 300. But there is no motion on camera 02 at this frame, until you play timeline to frame 600.    
+
+So, to set multiple camera motions, you need to set a start frame and end frame for each camera motion. Just like any other camrea motion.   
+
+Preset has already set camera motion length for you, so you just pick each camera's start frame.   
+
+So, you just change "**Start frame**" option's value to "**current frame**" at addon panel, then go to that frame and generate a camera.  
+
 
 #### Switch method
 Each method handles **fixed shot** in a different way.   
