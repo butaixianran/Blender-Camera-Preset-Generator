@@ -174,11 +174,20 @@ camera motion 02 from frame 600-900
 
 Then, camera motion will start with camera 01. And swtich to camera 02 at frame 300. But there is no motion on camera 02 at this frame, until you play timeline to frame 600.    
 
-So, to set multiple camera motions, you need to set a start frame and end frame for each camera motion. Just like any other camrea motion.   
+So, to set multiple camera motions, you need to set a start frame and end frame for each camera motion. Just like any other camera motion.   
 
 Preset has already set camera motion length for you, so you just pick each camera's start frame.   
 
-So, you just change "**Start frame**" option's value to "**current frame**" at addon panel, then go to that frame and generate a camera.  
+So, you just change "**Start frame**" option's value to "**current frame**" at addon panel, then go to the start frame you like to generate a camera.  
+
+You can also set "**Start frame**" to "**Follow Last Camera**". So, new camera motion's start frame, will be last camera motion's end frame+1.  
+
+If you have multiple camera system, you may want to view all camera motions' range at once. You can do that by going to Blender's NLA view. 
+
+NLA is a must learn thing, if you use blender for animation. Search "Blender NLA" for more. 
+
+Do not click "Push Down Action" button in NLA. Once you do that, camera will have no action anymore. Then this auto switch won't work.  
+
 
 
 #### Switch method
@@ -188,7 +197,6 @@ A **fixed shot**, is a camera only has start frame, no end frame.
 For **merge** method, if a camera is a fixed shot, it will use next camera's start frame number as switch point. So, this fixed shot is merged into camera motions.   
 
 For **follow** method, if a camera is a fixed shot, it will use the "**fixed shot duration**" you set on addon panel, to calculate the end frame number of this fixed shot, and use that end point as switch point to next camera.  
-
 
 # Format
 ## File Ext
@@ -208,6 +216,9 @@ A text json file.
 ## 1.1.0
 * Change all preset's start frame to current frame.
 * Change default start frame from "Project start" to current frame.
+* Add "Follow Last Camera" to option "Start Frame"
+* From now on,"Start Frame" option won't change because of loading preset.
+
 
 
 
