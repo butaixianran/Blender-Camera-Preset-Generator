@@ -34,7 +34,7 @@ Github项目池只用于文档和交流，不含有代码。
 [https://github.com/butaixianran/Blender-Camera-Preset-Generator](https://github.com/butaixianran/Blender-Camera-Preset-Generator)  
 
 ### 版本
-扩展: 1.0.0  
+扩展: 1.1.0  
 Blender: 3.0 或以上
 
 # 功能
@@ -178,4 +178,8 @@ https://user-images.githubusercontent.com/5558722/170872071-907755d7-c154-485f-b
 
 
 
+# 更新Log
+## 1.1.0
+* 修改所有模板的起始帧设置为：当前帧
+* 修改默认的起始帧设置，从"项目起点" 改为 当前帧
 

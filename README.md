@@ -39,7 +39,7 @@ Github repo is for document and issues. There is no code in it.
 
 
 ### Version
-Addon: 1.0.0   
+Addon: 1.1.0   
 Blender: 3.0 or later  
 
 # Feature
@@ -188,6 +188,11 @@ For **follow** method, if a camera is a fixed shot, it will use the "**fixed sho
 ## Preset Content
 A text json file.  
 
+
+# Update Log
+## 1.1.0
+* Change all preset's start frame to current frame.
+* Change default start frame from "Project start" to current frame.
 
 
 
