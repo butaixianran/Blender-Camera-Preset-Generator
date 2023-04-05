@@ -9,7 +9,12 @@
 
 # 演示视频
 [https://youtu.be/GCwKTui4vpM](https://youtu.be/GCwKTui4vpM)  
+b站：  
+[https://www.bilibili.com/video/BV1zX4y1k7EK/](https://www.bilibili.com/video/BV1zX4y1k7EK/)  
+
 [![](img/addon_thumb_half.jpg)](https://youtu.be/GCwKTui4vpM)  
+
+
 
 # 内置模板预览
 下面的`.zip`文件中，包含所有内置镜头模板的预览图和演示视频:  
@@ -24,10 +29,17 @@ mediafire:
 
 # 信息
 ### 下载
+爱发电：
+[https://afdian.net/item/dd3b5de6d35811edac5952540025c377](https://afdian.net/item/dd3b5de6d35811edac5952540025c377)  
+爱发电便宜4元。购买后会收到站内信，里面是网盘下载地址。所以先注册再购买。  
+
 Blender 市场:  
 [https://blendermarket.com/products/camera-preset-generator](https://blendermarket.com/products/camera-preset-generator)  
 
-**注意，该扩展面向专业人士，为防止Blender新手购买，本扩展暂时不提供中文版，也不提供国内下载渠道。**  
+
+
+
+**注意，该扩展面向有经验的Blender用户。为防止Blender新手购买，本扩展不提供中文版**  
 
 ### Github
 Github项目池只用于文档和交流，不含有代码。      
