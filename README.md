@@ -39,7 +39,7 @@ Github repo is for document and issues. There is no code in it.
 
 
 ### Version
-Addon: 1.2.0   
+Addon: 1.3.0   
 Blender: 3.0 or later  
 
 # Feature

@@ -46,7 +46,7 @@ Github项目池只用于文档和交流，不含有代码。
 [https://github.com/butaixianran/Blender-Camera-Preset-Generator](https://github.com/butaixianran/Blender-Camera-Preset-Generator)  
 
 ### 版本
-扩展: 1.2.0  
+扩展: 1.3.0  
 Blender: 3.0 或以上
 
 # 功能
