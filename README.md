@@ -213,6 +213,10 @@ A text json file.
 
 
 # Change Log
+## 1.3.0
+* Support Blender 5.x
+* Since Blender 5, Slots are added to Object's action. With this addon, we only handle the first slot
+
 ## 1.2.0
 * Add "Keep Target" option, to Not load target setting from preset.
 

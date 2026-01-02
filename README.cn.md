@@ -212,6 +212,10 @@ https://user-images.githubusercontent.com/5558722/170872071-907755d7-c154-485f-b
 
 
 # 更新Log
+## 1.3.0
+* 支持Blender 5.x
+* 从Blender 5开始，Action下面多了一层Slot。本扩展只处理第一个Slot
+
 ## 1.2.0
 * 添加"保持目标"选项，可以避免从模板读取目标设置，从而保持面板上的目标不变
 
