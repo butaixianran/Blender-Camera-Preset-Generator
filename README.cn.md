@@ -46,7 +46,7 @@ Github项目池只用于文档和交流，不含有代码。
 [https://github.com/butaixianran/Blender-Camera-Preset-Generator](https://github.com/butaixianran/Blender-Camera-Preset-Generator)  
 
 ### 版本
-扩展: 1.3.0  
+扩展: 1.3.1  
 Blender: 3.0 或以上
 
 # 功能
@@ -212,6 +212,9 @@ https://user-images.githubusercontent.com/5558722/170872071-907755d7-c154-485f-b
 
 
 # 更新Log
+## 1.3.1
+* 换用低阶API，以避免高阶API无法获得Channelbag的问题
+
 ## 1.3.0
 * 支持Blender 5.x
 * 从Blender 5开始，Action下面多了一层Slot。本扩展只处理第一个Slot
